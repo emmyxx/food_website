@@ -579,7 +579,7 @@ window.onload = function() {
     afficherIngredients();
 };
 function afficherMeals() {
-    fetch("http://localhost:3002/meals/").then((response)=>response.json()).then((meals)=>{
+    fetch("https://projet-web-back-2wc1.onrender.com/meals/").then((response)=>response.json()).then((meals)=>{
         let mealsContainer = document.getElementById("meals-container");
         meals.forEach((meal)=>{
             let box = createMealBox(meal.image, meal.name, meal.price, meal.description);
@@ -613,7 +613,7 @@ function createMealBox(imageSrc, title, price, description) {
     return box;
 }
 function afficherIngredients() {
-    fetch("http://localhost:3002/ingredients/").then((response)=>response.json()).then((ingredients)=>{
+    fetch("https://projet-web-back-2wc1.onrender.com/ingredients/").then((response)=>response.json()).then((ingredients)=>{
         let ingredientsContainer = document.getElementById("ingredients-container");
         ingredients.forEach((ingredient)=>{
             console.log(ingredient);

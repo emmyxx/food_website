@@ -1,6 +1,6 @@
 6086
 48/home/ubuntu/IG3/WEB/PROJET/food_website/.vscode1685369407036943546 1
-52/home/ubuntu/IG3/WEB/PROJET/food_website/js/index.js1685370399862470124 0
+52/home/ubuntu/IG3/WEB/PROJET/food_website/js/index.js1685378388305169991 0
 87/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/escape-string-regexp/package.json1685296970873656665 0
 71/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/parcel/lib/cli.js1685296987681598191 0
 64/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/parcel/lib1685296987681598191 1
@@ -1101,7 +1101,7 @@
 93/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/caniuse-lite/data/features/svg-fonts.js1685296971617654074 0
 99/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/lmdb/node_modules/node-addon-api/node_api.gyp1685296988673594743 0
 71/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/csso/lib/utils.js1685296971221655452 0
-63/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.5d9dacde.js1685370414430459261 0
+63/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.5d9dacde.js1685379334199857972 0
 83/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/csso/lib/replace/Dimension.js1685296971185655578 0
 97/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/workers/lib/process/ProcessChild.js1685296976617636671 0
 85/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/css-select/lib/esm/general.d.ts1685296971153655689 0
@@ -1849,7 +1849,7 @@
 110/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@swc/helpers/esm/_class_static_private_field_spec_get.js1685296971689653823 0
 83/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@swc/helpers/src/_type_of.mjs1685296971865653210 0
 103/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/csso/node_modules/css-tree/lib/tokenizer/utils.js1685296988585595048 0
-45/home/ubuntu/IG3/WEB/PROJET/food_website/dist1685370414434459257 1
+45/home/ubuntu/IG3/WEB/PROJET/food_website/dist1685379334203857951 1
 127/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/optimizer-htmlnano/node_modules/css-select/lib/procedure.d.ts.map1685296988885594006 0
 74/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/js-yaml/CHANGELOG.md1685296971477654562 0
 118/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@swc/helpers/esm/_class_check_private_static_field_descriptor.js1685296971685653837 0
@@ -1954,7 +1954,7 @@
 105/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/csso/node_modules/css-tree/cjs/syntax/node/Rule.cjs1685296987929597329 0
 70/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/is-json/index.js1685296971249655355 0
 85/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/caniuse-lite/data/regions/UG.js1685296971625654046 0
-56/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.html1685370414410459276 0
+56/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.html1685379334191858011 0
 108/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/css-select/node_modules/entities/lib/esm/encode.js.map1685296988393595716 0
 127/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/dir.js1685296971153655689 0
 106/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/runtime-js/src/helpers/browser/css-loader.js1685296980493623186 0
@@ -2055,7 +2055,7 @@
 66/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/lightningcss1685296972289651734 1
 87/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@swc/helpers/lib/_create_class.js1685296971729653684 0
 70/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/semver/range.bnf1685296970917656511 0
-67/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.5d9dacde.js.map1685370414434459257 0
+67/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.5d9dacde.js.map1685379334203857951 0
 102/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@swc/helpers/lib/_is_native_reflect_construct.js1685296971753653601 0
 101/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/htmlnano/lib/modules/sortAttributesWithLists.js1685296972101652389 0
 94/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/utils/src/generateCertificate.js1685296983957611139 0
@@ -2382,7 +2382,7 @@
 106/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/csso/node_modules/css-tree/cjs/syntax/node/Block.cjs1685296987785597829 0
 58/home/ubuntu/IG3/WEB/PROJET/food_website/package-lock.json1685297375820268020 0
 68/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/dom-serializer1685296970993656247 1
-53/home/ubuntu/IG3/WEB/PROJET/food_website/package.json1685297375820268020 0
+53/home/ubuntu/IG3/WEB/PROJET/food_website/package.json1685379301652020354 0
 96/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/caniuse-lite/data/features/css-rrggbbaa.js1685296971365654951 0
 88/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/csso/node_modules/css-tree/LICENSE1685296987765597899 0
 73/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/msgpackr/index.d.ts1685296975757639664 0
@@ -2399,7 +2399,7 @@
 122/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/restructure/prepare1685296971117655814 1
 85/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/axios/lib/platform/node/classes1685295432237012088 1
 88/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/watcher/src/unix/legacy.cc1685296972473651094 0
-68/home/ubuntu/IG3/WEB/PROJET/food_website/dist/about-img.a4073a63.png1685370414430459261 0
+68/home/ubuntu/IG3/WEB/PROJET/food_website/dist/about-img.a4073a63.png1685379334191858011 0
 73/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/weak-lru-cache/dist1685296971141655731 1
 92/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/css-select/node_modules/dom-serializer1685296988385595744 1
 86/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/css-what/lib/commonjs/index.d.ts1685296971045656065 0
@@ -2456,7 +2456,7 @@
 68/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/domelementtype1685296970965656344 1
 72/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@lezer/common/dist1685296974473644132 1
 73/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/css-tree/cjs/walker1685296971177655606 1
-64/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.b2625c6b.css1685370414398459285 0
+64/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.b2625c6b.css1685379334167858131 0
 98/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/caniuse-lite/data/features/resizeobserver.js1685296971605654116 0
 108/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/lmdb/node_modules/node-addon-api/tools/clang-format.js1685296988797594312 0
 87/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/packager-css/package.json1685296981125620988 0
@@ -3501,7 +3501,7 @@
 98/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/csso/cjs/restructure/prepare/specificity.cjs1685296971089655912 0
 109/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/htmlnano/docs/versioned_docs/version-1.1.1/020-usage.md1685296975037642169 0
 85/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/caniuse-lite/data/regions/GL.js1685296971533654367 0
-67/home/ubuntu/IG3/WEB/PROJET/food_website/dist/home-img.2639ddde.png1685370414410459276 0
+67/home/ubuntu/IG3/WEB/PROJET/food_website/dist/home-img.2639ddde.png1685379334175858091 0
 66/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/htmlnano/lib1685296972069652500 1
 80/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/htmlnano/docs/package.json1685296975025642211 0
 81/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/type-fest/source/basic.d.ts1685296971429654728 0
@@ -5077,7 +5077,7 @@
 94/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/transformer-js/native-browser.js1685296978221631090 0
 69/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/watcher1685296983929611236 1
 99/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@swc/helpers/esm/_class_private_method_get.js1685296971685653837 0
-68/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.b2625c6b.css.map1685370414414459272 0
+68/home/ubuntu/IG3/WEB/PROJET/food_website/dist/index.b2625c6b.css.map1685379334179858071 0
 116/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/core/test/fixtures/custom-targets-distdir/package.json1685296990117589724 0
 117/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/csso/node_modules/css-tree/lib/syntax/config/parser-selector.js1685296988577595076 0
 79/home/ubuntu/IG3/WEB/PROJET/food_website/node_modules/@parcel/watcher/README.md1685296973049649089 0
