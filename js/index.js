@@ -4,7 +4,7 @@ window.onload = function() {
 };
 
 function afficherMeals() {
-    fetch('http://localhost:3002/meals/')
+    fetch('https://projet-web-back-2wc1.onrender.com/meals/')
         .then(response => response.json())
         .then(meals => {
             let mealsContainer = document.getElementById("meals-container");
@@ -49,7 +49,7 @@ function createMealBox(imageSrc, title, price, description) {
 }
 
 function afficherIngredients() {
-    fetch('http://localhost:3002/ingredients/')
+    fetch('https://projet-web-back-2wc1.onrender.com/ingredients/')
         .then(response => response.json())
         .then(ingredients => {
             let ingredientsContainer = document.getElementById("ingredients-container");
