@@ -101,3 +101,4 @@ function createIngredientBox(imageSrc, title, description) {
 
   return boxy;
 }
+

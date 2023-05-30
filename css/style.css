@@ -4,7 +4,7 @@
     --blue:#1e73f2;
     --black:#00288d;
     --light-color:#666;
-    --box-shadow:0 .5rem 1.5rem rgba(202, 218, 240, 0.1)0.1);
+    --box-shadow:0 .5rem 1.5rem rgba(202, 218, 240, 0.1,0.1);
 }
 
 *{
@@ -13,7 +13,6 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -101,6 +100,7 @@ header .flex .logo{
 header .flex .logo i{
     color:var(--blue);
 }
+
 
 header .flex .navbar a{
     font-size: 1.7rem;
