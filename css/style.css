@@ -4,7 +4,7 @@
     --blue:#1e73f2;
     --black:#00288d;
     --light-color:#666;
-    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1.5rem rgba(202, 218, 240, 0.1)0.1);
 }
 
 *{
@@ -19,7 +19,7 @@
 
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
+   
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
 }
@@ -31,7 +31,7 @@ section{
 }
 
 .container:nth-child(even){
-    background:#eee;
+    background:#e7f5f9;
 }
 
 #dishes .sub-heading{
@@ -126,7 +126,7 @@ header .flex .icons a{
     font-size: 1.7rem;
     color:var(--black);
     border-radius: 50%;
-    background: #eee;
+    background: #e7f5f9;
 }
 
 header .flex .icons i:hover,
@@ -166,9 +166,9 @@ header .flex .icons #menu-bars{
     background:none;
 }
 
-#search-form #search-box::placeholder{
-    color:#eee;
-}
+/* #search-form #search-box::placeholder{
+    color:#e7f5f9;
+} */
 
 #search-form #search-box::-webkit-search-cancel-button{
     -webkit-appearance: none;
@@ -184,16 +184,16 @@ header .flex .icons #menu-bars{
     color:var(--blue);
 }
 
-#search-form #close{
+/* #search-form #close{
     position: absolute;
     color:#fff;
     cursor: pointer;
     top: 2rem; right:3rem;
     font-size: 5rem;
-}
+} */
 
 .home .swiper-slide{
-    background-color: #eee;
+    background-color: #e7f5f9;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -250,13 +250,95 @@ header .flex .icons #menu-bars{
 .swiper-pagination-bullet-active{
     background:var(--blue);
 }
+/* ------------------------------------------------------------------- */
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+   display: flex;
+  justify-content: center;
+ 
+}
+
+.login-container,
+.register-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20rem;
+  margin-bottom: 2rem;
+
+}
+
+.login-container h2,
+.register-container h2 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.login-container form,
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container input,
+.register-container input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #eee;
+}
+
+.login-container button,
+.register-container button {
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--black);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.login-container button:hover,
+.register-container button:hover {
+  background: var(--blue);
+  letter-spacing: 0.1rem;
+}
+
+.login-container p,
+.register-container p {
+  margin-top: 1rem;
+}
+
+.login-container p a,
+.register-container p a {
+  color: var(--blue);
+}
+
+.login-container p a:hover,
+.register-container p a:hover {
+  text-decoration: underline;
+}
 
 /* --------------------------------------------------------------- */
 
 #dishes #meals-container{
-    display: grid;
-    grid-template-columns: repeat(3, 35rem); /* change auto-fit to 3 and adjust the size as per your requirement */
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(3, 35rem); 
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) */
     gap:1.5rem;
     justify-content: center;
     margin-top: 15px;
@@ -270,9 +352,14 @@ header .flex .icons #menu-bars{
     border:.1rem solid rgba(0,0,0,.2);
     box-shadow: var(--box-shadow);
     position: relative;
-    overflow: hidden;
     text-align: center;
     margin-bottom: 20px;
+
+    flex-basis: 33%; 
+    flex-grow: 1;
+    max-width: 33%;
+    box-sizing: border-box;
+
 }
 
 #dishes #meals-container .meal-box img{
@@ -368,8 +455,8 @@ header .flex .icons #menu-bars{
 /* -------------------------------------- */
 
 #ingredients #ingredients-container{
-    display:grid;
-    grid-template-columns: repeat(3, 35rem);
+    display: flex;
+    flex-wrap: wrap;
     gap:1.5rem;
     justify-content: center;
 }
@@ -381,16 +468,19 @@ header .flex .icons #menu-bars{
     border:.1rem solid rgba(0,0,0,.2);
     box-shadow: var(--box-shadow);
     position: relative;
-    overflow: hidden;
     text-align: center;
     margin-bottom: 20px;
+
+    flex-basis: 33%;
+    flex-grow: 1;
+    max-width: 33%;
+    box-sizing: border-box;
 }
 
 #ingredients #ingredients-container .ingredients-box .image{
     height: 22rem;
     width: auto;
     padding:1.5rem;
-    overflow: hidden;
     position: relative;
 }
 
@@ -590,7 +680,7 @@ header .flex .icons #menu-bars{
     padding:.5rem;
     padding-top: 3rem;
     margin-top:3rem;
-    /* padding-bottom: 6rem; */
+
 }
 
 .footer .credit span{
@@ -652,7 +742,15 @@ header .flex .icons #menu-bars{
         margin:0 1rem;
     }
 
+    #dishes #meals-container .meal-box {
+        flex-basis: 50%; /* Réduire la taille de base à 50% pour afficher deux éléments par ligne sur les écrans plus petits */
+        max-width: 50%;
+    }
    
+    #ingredients #ingredients-container .ingredients-box {
+        flex-basis: 50%;
+        max-width: 50%;
+      }
 
 }
 
@@ -661,15 +759,27 @@ header .flex .icons #menu-bars{
     html{
         font-size: 50%;
     }
-
+/* 
     .dishes .box-container .box img{
         height:auto;
         width: 100%;
-    }
+    } */
 
     .order form .inputBox .input{
         width:100%;
     }
 
 }
+
+@media (max-width: 480px) {
+    #dishes #meals-container .meal-box {
+      flex-basis: 100%; /* Définir la taille de base à 100% pour afficher un élément par ligne sur les écrans encore plus petits */
+      max-width: 100%;
+    }
+
+    #ingredients #ingredients-container .ingredients-box {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+  }
 
