@@ -127,6 +127,7 @@ header .flex .icons a{
     color:var(--black);
     border-radius: 50%;
     background: #e7f5f9;
+    z-index: 2;
 }
 
 header .flex .icons i:hover,
@@ -256,8 +257,9 @@ header .flex .icons #menu-bars{
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-   display: flex;
+    /* display: flex;   */
   justify-content: center;
+
  
 }
 
@@ -297,7 +299,16 @@ header .flex .icons #menu-bars{
   border-radius: 0.5rem;
   background: #eee;
 }
-
+.register-hom,
+.login-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 9rem;
+}
+.register-home button,
+.login-home button,
 .login-container button,
 .register-container button {
   padding: 0.8rem 3rem;
@@ -309,7 +320,7 @@ header .flex .icons #menu-bars{
   cursor: pointer;
   transition: all 0.2s linear;
 }
-
+.login-home button:hover,
 .login-container button:hover,
 .register-container button:hover {
   background: var(--blue);
@@ -336,9 +347,6 @@ header .flex .icons #menu-bars{
 #dishes #meals-container{
     display: flex;
     flex-wrap: wrap;
-    /* display: grid;
-    grid-template-columns: repeat(3, 35rem); 
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) */
     gap:1.5rem;
     justify-content: center;
     margin-top: 15px;

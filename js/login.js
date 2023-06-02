@@ -3,7 +3,7 @@ document.getElementById("loginForm").addEventListener("submit", async function (
 
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
-
+console.log(email, password);
 
     fetch("https://projet-web-back-2wc1.onrender.com/appUsers/login", {
         method: "POST",
@@ -20,7 +20,10 @@ document.getElementById("loginForm").addEventListener("submit", async function (
         const messageElement = document.getElementById("message");
         if (response.message === 'Connexion réussie') {
             messageElement.textContent = "Connexion réussie";
-            // Here, you may also want to redirect the user, store the user info, etc.
+            setTimeout(function() {
+              messageElement.textContent = "";
+              window.location.href = "index.html";
+          }, 1000);
         } else {
             messageElement.textContent = "Echec de la connexion: " + response.message;
         }

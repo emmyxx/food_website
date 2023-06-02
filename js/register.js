@@ -4,7 +4,7 @@ document.getElementById("register-form").addEventListener("submit", async functi
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
     const messageElement = document.getElementById("message");
-
+console.log(email, password);
     fetch("https://projet-web-back-2wc1.onrender.com/appUsers/register", {
         method: "POST",
         headers: {
@@ -19,6 +19,10 @@ document.getElementById("register-form").addEventListener("submit", async functi
     .then((response) => {
         if (response.message) {
             messageElement.textContent = "Inscription réussie";
+            setTimeout(function() {
+                messageElement.textContent = "";
+                window.location.href = "index.html";
+            }, 1000);
         } else {
             messageElement.textContent = "Echec de l'inscription: " + response.error;
         }
@@ -27,3 +31,4 @@ document.getElementById("register-form").addEventListener("submit", async functi
         console.error("Erreur:", error);
     });
 });
+
